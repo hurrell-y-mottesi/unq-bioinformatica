@@ -22,7 +22,7 @@ No, puede haber varias formas de alinear ambos strings. Por lo general se prefie
 
 ### RETO V: Estuvimos viendo que el alineamiento de secuencias no es trivial y requiere contemplar los múltiples caminos posibles, teniendo en cuenta al mismo tiempo la información biológica que restringe ese universo de posibilidades. ¡Es momento de llevar entonces estos conceptos a lo concreto! Te proponemos pensar los pasos a seguir en un alineamiento de dos secuencias cortas, teniendo en cuenta una matriz genérica de scoring (puntuación) que contemple las complejidades que estuvimos viendo, es decir que penalice de distinto modo una inserción o deleción, que una discordancia (mismatch) o una coincidencia (match). Escribilos o esquematizalos en un diagrama de flujo.
 
-![BLAST Matrix](Matriz BLAST.png)
+![BLAST Matrix](https://github.com/hurrell-y-mottesi/unq-bioinformatica/blob/master/tp5/Matriz%20BLAST.png)
 
 ### RETO VI: Utilizando la herramienta interactiva desarrolladas por el Grupo de Bioinformática de Freiburg probá distintos Gap penalties para el ejemplo propuesto y observá lo que ocurre. Interpretando la recursión, explicá con tus palabras de dónde salen los valores de la matriz que se construye. ¡Esquematiza tus conclusiones!
 
@@ -45,9 +45,9 @@ VVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTE
 
 E-Value 3e-97
 
-![Blast Result desc](BLAST result desc.png)
+![Blast Result desc](https://github.com/hurrell-y-mottesi/unq-bioinformatica/blob/master/tp5/BLAST%20result%20desc.png)
 
-![Blast Result](BLAST result.png)
+![Blast Result](https://github.com/hurrell-y-mottesi/unq-bioinformatica/blob/master/tp5/BLAST%20result.png)
 
 * Entendemos que el E-Value es un valor que determina el mejor match conseguido con la menor cantidad de mismatch y gaps. En comparación, el % id determina el porcentaje de identidad con el alineamiento comparado con las de la base.
 * El Score lo entendemos como un porcentaje entre todos los resultados, dandole un puntaje numérico, que a diferencia del %id contempla todos los resultados.
@@ -56,11 +56,16 @@ E-Value 3e-97
 ### RETO VIII: Realizá nuevas búsquedas usando la mitad de la secuencia problema y para un cuarto de la secuencia original. Compará los gráficos obtenidos.¿Qué conclusiones puede sacas?
 
 * 50%
-![Blast Result 50%](BLAST result 50.png)
+
+
+![Blast Result 50%](https://github.com/hurrell-y-mottesi/unq-bioinformatica/blob/master/tp5/BLAST%20result%2050.png)
 
 
 * 25%
-![Blast Result 25%](BLAST result 25.png)
+
+
+![Blast Result 25%](https://github.com/hurrell-y-mottesi/unq-bioinformatica/blob/master/tp5/BLAST%20result%2025.png)
+
 
 * Como conclusión, notamos que al tener una secuencia menor, tiene más posibilidades de encontrar alineamientos. Notamos que mientras menor sea la secuencia, mas “Blast Hits” logra seleccionar.
 
